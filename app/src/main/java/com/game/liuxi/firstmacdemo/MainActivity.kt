@@ -13,7 +13,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         nh.setOnClickListener { startActivity(Intent(this, ButterKnifeActivity::class.java)) }
-        dao.setOnClickListener { startActivity(Intent(this, DaoActivity::class.java)) }
+        dao.setOnClickListener { startActivity(Intent(this, GreenDaoActivity::class.java)) }
     }
 
 

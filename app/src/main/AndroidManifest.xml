@@ -17,7 +17,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".ButterKnifeActivity" />
-        <activity android:name=".DaoActivity"></activity>
+        <activity android:name=".GreenDaoActivity"></activity>
     </application>
 
 </manifest>
